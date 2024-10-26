@@ -10,7 +10,9 @@
   "devDependencies": {
     "prettier": "^3.2.5",
     "turbo": "^2.2.3",
-    "typescript": "5.5.4"
+    "typescript": "5.5.4",
+    "@sass/eslint-config": "workspace:*",
+    "@sass/typescript-config": "workspace:*"
   },
   "packageManager": "pnpm@8.15.6",
   "engines": {
