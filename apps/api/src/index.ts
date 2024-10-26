@@ -1,4 +1,6 @@
-import { ability } from '@sass/auth'
+import { defineAbilityFor } from '@sass/auth'
+
+const ability = defineAbilityFor({ role: 'ADMIN' })
 
 console.log('hello')
 const userCanInviteSomeoneElse = ability.can('invite', 'User')
